@@ -2,20 +2,14 @@
 <form action="/books" method="GET">
   <div>
     <label>Title</label>
-    <input
-      type="text"
-      name="title"
-      value="<%= searchOptions.title %>
-    "
-    />
+    <input type="text" name="title" value="<%=searchOptions.title%>" />
   </div>
   <div>
     <label>Published After</label>
     <input
       type="date"
       name="publishedAfter"
-      value="<%= searchOptions.publishedAfter %>
-      "
+      value="<%= searchOptions.publishedAfter %>"
     />
   </div>
   <div>
@@ -23,8 +17,7 @@
     <input
       type="date"
       name="publishedBefore"
-      value="<%= searchOptions.publishedBefore %>
-      "
+      value="<%= searchOptions.publishedBefore %>"
     />
   </div>
 
