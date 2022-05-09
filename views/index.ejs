@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Middle
-  </body>
-</html>
+<h2>Recently Added</h2>
+
+<div>
+  <% books.forEach(book => { %>
+  <img src="<%= book.coverImagePath %>" alt="" height="150" width="100" />
+  <%= book.title %> <% }) %>
+</div>
