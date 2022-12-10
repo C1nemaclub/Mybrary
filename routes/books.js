@@ -41,7 +41,6 @@ router.post('/', async (req, res) => {
     pageCount: req.body.pageCount,
     description: req.body.description,
   });
-
   saveCover(book, req.body.cover);
 
   try {
